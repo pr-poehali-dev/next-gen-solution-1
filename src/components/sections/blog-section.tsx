@@ -5,22 +5,22 @@ import { ArrowRight } from "lucide-react"
 export function BlogSection() {
   const blogPosts = [
     {
-      title: "Создание современных UI с PixelForge",
-      description: "Узнайте, как создавать красивые интерфейсы с нашей библиотекой компонентов.",
-      date: "15 мая 2023",
-      readTime: "5 мин",
+      title: "Реконструкция кровли завода «МашСталь» — 22 000 м²",
+      description: "Как мы провели полную замену кровельного пирога на действующем производстве без остановки технологического процесса.",
+      date: "10 февраля 2026",
+      readTime: "Кейс",
     },
     {
-      title: "Мощь Tailwind CSS и React",
-      description: "Как Tailwind CSS и React могут преобразить ваш рабочий процесс разработки.",
-      date: "28 апреля 2023",
-      readTime: "7 мин",
+      title: "Плоская vs инверсионная кровля: что выбрать для склада?",
+      description: "Сравниваем два популярных решения для промышленных объектов: стоимость, долговечность, эксплуатационные расходы.",
+      date: "15 января 2026",
+      readTime: "Статья",
     },
     {
-      title: "Доступные компоненты",
-      description: "Лучшие практики создания UI-компонентов, доступных для всех пользователей.",
-      date: "10 апреля 2023",
-      readTime: "6 мин",
+      title: "Что входит в гарантию на кровельные работы",
+      description: "Подробно разбираем, от чего защищает наша 10-летняя гарантия и какие случаи считаются гарантийными.",
+      date: "5 декабря 2025",
+      readTime: "Статья",
     },
   ]
 
@@ -30,9 +30,9 @@ export function BlogSection() {
         <ScrollReveal>
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-heading font-bold tracking-tighter sm:text-5xl">Статьи</h2>
+              <h2 className="text-3xl font-heading font-bold tracking-tighter sm:text-5xl">Кейсы и статьи</h2>
               <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 opacity-70">
-                Будьте в курсе наших новостей, туториалов и лучших практик.
+                Реальные проекты, экспертные разборы и полезные материалы о промышленном кровельном строительстве.
               </p>
             </div>
           </div>

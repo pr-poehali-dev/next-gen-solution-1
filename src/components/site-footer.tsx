@@ -9,11 +9,10 @@ export function SiteFooter() {
           <div className="flex flex-1 flex-col gap-4">
             <a href="/" className="flex items-center gap-2">
               <Icons.logo className="h-6 w-6" />
-              <span className="font-heading text-xl tracking-tight">PixelForge</span>
+              <span className="font-heading text-xl tracking-tight">Вира</span>
             </a>
             <p className="text-muted-foreground max-w-sm opacity-70">
-              Современная библиотека UI-компонентов на базе shadcn/ui и Aceternity UI для веб-разработчиков и дизайнеров
-              в сфере AI-софта.
+              Промышленные кровельные работы под ключ с 1994 года. Заводы, склады, торговые комплексы. Гарантия 10 лет.
             </p>
             <div className="flex gap-4">
               <a href="https://twitter.com" target="_blank" rel="noreferrer" className="glassmorphic-icon">
@@ -32,14 +31,30 @@ export function SiteFooter() {
           </div>
           <div className="grid flex-1 grid-cols-2 gap-10 sm:grid-cols-3">
             <div className="flex flex-col gap-2">
-              <h3 className="text-sm font-medium tracking-tight">Продукт</h3>
+              <h3 className="text-sm font-medium tracking-tight">Услуги</h3>
               <ul className="flex flex-col gap-2">
                 <li>
                   <a
                     href="#features"
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground opacity-70"
                   >
-                    Функции
+                    Монтаж кровли
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#features"
+                    className="text-sm text-muted-foreground transition-colors hover:text-foreground opacity-70"
+                  >
+                    Ремонт кровли
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#features"
+                    className="text-sm text-muted-foreground transition-colors hover:text-foreground opacity-70"
+                  >
+                    Реконструкция
                   </a>
                 </li>
                 <li>
@@ -47,23 +62,7 @@ export function SiteFooter() {
                     href="#pricing"
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground opacity-70"
                   >
-                    Цены
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#components"
-                    className="text-sm text-muted-foreground transition-colors hover:text-foreground opacity-70"
-                  >
-                    Компоненты
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#changelog"
-                    className="text-sm text-muted-foreground transition-colors hover:text-foreground opacity-70"
-                  >
-                    Изменения
+                    Прайс
                   </a>
                 </li>
               </ul>
@@ -73,10 +72,10 @@ export function SiteFooter() {
               <ul className="flex flex-col gap-2">
                 <li>
                   <a
-                    href="#about"
+                    href="#testimonials"
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground opacity-70"
                   >
-                    О нас
+                    Отзывы
                   </a>
                 </li>
                 <li>
@@ -84,20 +83,20 @@ export function SiteFooter() {
                     href="#blog"
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground opacity-70"
                   >
-                    Блог
+                    Кейсы
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#careers"
+                    href="#faq"
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground opacity-70"
                   >
-                    Вакансии
+                    FAQ
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#contact"
+                    href="#cta"
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground opacity-70"
                   >
                     Контакты
@@ -124,29 +123,13 @@ export function SiteFooter() {
                     Условия
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="#cookies"
-                    className="text-sm text-muted-foreground transition-colors hover:text-foreground opacity-70"
-                  >
-                    Cookies
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#licenses"
-                    className="text-sm text-muted-foreground transition-colors hover:text-foreground opacity-70"
-                  >
-                    Лицензии
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
         </div>
         <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
           <p className="text-sm text-muted-foreground opacity-70">
-            &copy; {new Date().getFullYear()} PixelForge. Все права защищены.
+            &copy; {new Date().getFullYear()} Кровельная компания «Вира». Все права защищены.
           </p>
           <div className="flex gap-4">
             <a
